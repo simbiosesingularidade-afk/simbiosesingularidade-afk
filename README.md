@@ -17,21 +17,32 @@ Construo sistemas autônomos que operam 24/7 com gestão de risco institucional.
 
 ## 🏆 Projetos em Destaque
 
-### 🔹 [Aether v15 Synapse Quantum](https://github.com/simbiosesingularidade-afk/aether-ecosystem)
-Bot de trading quantitativo open source com **Kelly Criterion**, **60+ ativos** e **15 camadas de proteção de risco**.
+### 🔹 [Aether Trading Bot v10 Definitive](https://github.com/simbiosesingularidade-afk/Aether-TradingBot-v10Definitive)
+Agente financeiro inteligente que monitora **22+ ativos** em tempo real na Binance com estratégias de momentum e gestão de risco dinâmica via ATR.
 
 **Stack**: Python 3.12, asyncio, ccxt.pro, pandas, numpy
 **Features**:
-- 4 estratégias adaptativas (T1 Blue Chip, T2 Alts, T3 Memes, PAXG Safe Haven)
-- Trailing stop adaptativo (0.4% → 8%)
-- Whale Radar: detecção de movimentos >$1M
-- Anti-vício e sector lock
-- Dashboard React em tempo real
+- Estratégias: RSI, Breakout, Squeeze Momentum
+- Gestão de risco dinâmica com ATR (Average True Range)
+- Monitoramento em tempo real de 22+ criptomoedas
+- Arquitetura async de alta performance
+
+---
+
+### 🔹 [AetherJ Trading Bot](https://github.com/simbiosesingularidade-afk/aetherj-trading-bot)
+Bot de trading autônomo com **3 estratégias adaptativas**: RSI Oversold, Major Trend e Pump Pullback.
+
+**Stack**: Python, ccxt, pandas, numpy
+**Features**:
+- RSI Oversold: Detecta oportunidades de entrada em sobrevenda
+- Major Trend: Follow trend em grandes movimentos
+- Pump Pullback: Estratégia para capturar pullbacks após pumps
+- Gestão de risco com stop loss e take profit automáticos
 
 ---
 
 ### 🔹 [Synaptic WhatsApp Bot](https://github.com/simbiosesingularidade-afk/synaptic-whatsapp-bot)
-Assistente IA para WhatsApp com voz (Whisper) + LLM + Text-to-Speech.
+Assistente IA para WhatsApp com **voz (Whisper)** + **GPT-4** + **Text-to-Speech**.
 
 **Stack**: Node.js, whatsapp-web.js, OpenAI, Puppeteer
 **Features**:
@@ -42,15 +53,15 @@ Assistente IA para WhatsApp com voz (Whisper) + LLM + Text-to-Speech.
 
 ---
 
-### 🔹 [Aether Dashboard](https://github.com/simbiosesingularidade-afk/aether-dashboard)
-Dashboard React em tempo real para monitoramento do trading bot.
+### 🔹 [Synaptic RH - Agente Conversacional com RAG](https://github.com/simbiosesingularidade-afk/Synaptic-RH-Agente-Conversacional-com-RAG)
+Assistente Virtual Inteligente para WhatsApp voltado para **atendimento a funcionários** com arquitetura RAG (Retrieval-Augmented Generation).
 
-**Stack**: React 19, TypeScript, Tailwind CSS, Vite
+**Stack**: Node.js, whatsapp-web.js, OpenAI, RAG
 **Features**:
-- Atualização em tempo real (5s polling)
-- Gráficos de performance
-- Cards interativos
-- Responsivo (mobile-first)
+- Atendimento automatizado a funcionários
+- Integração com LLMs (OpenAI)
+- RAG para respostas baseadas em conhecimento da empresa
+- Contexto conversacional inteligente
 
 ---
 
@@ -59,19 +70,21 @@ Dashboard React em tempo real para monitoramento do trading bot.
 ### Core
 - **Python**: 3.12+ (asyncio, type hints)
 - **Node.js**: 20+ (ES modules)
-- **React**: 19 + TypeScript
+- **TypeScript**: Strict mode
 - **Banco de Dados**: PostgreSQL, Redis
 
 ### Trading & Finance
 - **ccxt.pro**: Exchange-agnostic async trading
 - **pandas/numpy**: Análise quantitativa
 - **aiohttp**: Async HTTP client
+- **ATR**: Average True Range para gestão de risco
 
 ### AI & LLMs
 - **OpenAI**: GPT-4, Whisper, TTS
 - **Anthropic**: Claude Sonnet/Opus
 - **Google**: Gemini Pro
 - **Moonshot**: Kimi (Chinese LLM)
+- **RAG**: Retrieval-Augmented Generation
 
 ### Infraestrutura
 - **Docker**: Containerização
@@ -123,9 +136,10 @@ Dashboard React em tempo real para monitoramento do trading bot.
 
 ## 🔗 Links Rápidos
 
-- [Aether Trading Bot](https://github.com/simbiosesingularidade-afk/aether-ecosystem) — Bot de trading quantitativo
-- [Synaptic WhatsApp Bot](https://github.com/simbiosesingularidade-afk/synaptic-whatsapp-bot) — Assistente IA para WhatsApp
-- [Aether Dashboard](https://github.com/simbiosesingularidade-afk/aether-dashboard) — Dashboard React em tempo real
+- [Aether v10 Definitive](https://github.com/simbiosesingularidade-afk/Aether-TradingBot-v10Definitive) — Bot de trading 22+ ativos
+- [AetherJ Trading Bot](https://github.com/simbiosesingularidade-afk/aetherj-trading-bot) — Bot 3 estratégias
+- [Synaptic WhatsApp Bot](https://github.com/simbiosesingularidade-afk/synaptic-whatsapp-bot) — Assistente IA voz + GPT-4
+- [Synaptic RH com RAG](https://github.com/simbiosesingularidade-afk/Synaptic-RH-Agente-Conversacional-com-RAG) — Bot RH inteligente
 
 ---
 
