@@ -17,51 +17,63 @@ Construo sistemas autônomos que operam 24/7 com gestão de risco institucional.
 
 ## 🏆 Projetos em Destaque
 
-### 🔹 [Aether Trading Bot v10 Definitive](https://github.com/simbiosesingularidade-afk/Aether-TradingBot-v10Definitive)
-Agente financeiro inteligente que monitora **22+ ativos** em tempo real na Binance com estratégias de momentum e gestão de risco dinâmica via ATR.
+### 🔹 [Aether v15 Synapse Quantum](https://github.com/simbiosesingularidade-afk/aether-v15-synapse-quantum) ⭐ NOVO
+Bot de trading autônomo com **60+ ativos**, **Kelly Criterion** e **15 camadas de proteção de risco**.
 
 **Stack**: Python 3.12, asyncio, ccxt.pro, pandas, numpy
 **Features**:
-- Estratégias: RSI, Breakout, Squeeze Momentum
-- Gestão de risco dinâmica com ATR (Average True Range)
-- Monitoramento em tempo real de 22+ criptomoedas
-- Arquitetura async de alta performance
+- 4 estratégias adaptativas (T1 Blue Chip, T2 Alts, T3 Memes, PAXG)
+- Trailing stop adaptativo (0.4% → 8%)
+- Whale Radar: detecção de movimentos >$1M
+- Anti-vício e sector lock
+- Priority queue para hot tokens
 
 ---
 
-### 🔹 [AetherJ Trading Bot](https://github.com/simbiosesingularidade-afk/aetherj-trading-bot)
-Bot de trading autônomo com **3 estratégias adaptativas**: RSI Oversold, Major Trend e Pump Pullback.
+### 🔹 [Aether Dashboard](https://github.com/simbiosesingularidade-afk/aether-dashboard) ⭐ NOVO
+Dashboard **React 19** em tempo real para monitoramento do trading bot.
 
-**Stack**: Python, ccxt, pandas, numpy
+**Stack**: React 19, TypeScript, Tailwind CSS, Vite
 **Features**:
-- RSI Oversold: Detecta oportunidades de entrada em sobrevenda
-- Major Trend: Follow trend em grandes movimentos
-- Pump Pullback: Estratégia para capturar pullbacks após pumps
-- Gestão de risco com stop loss e take profit automáticos
+- Gráficos de performance ao vivo
+- Cards interativos com métricas
+- Atualização automática (5s polling)
+- Responsivo (mobile-first)
 
 ---
 
 ### 🔹 [Synaptic WhatsApp Bot](https://github.com/simbiosesingularidade-afk/synaptic-whatsapp-bot)
 Assistente IA para WhatsApp com **voz (Whisper)** + **GPT-4** + **Text-to-Speech**.
 
-**Stack**: Node.js, whatsapp-web.js, OpenAI, Puppeteer
+**Stack**: Node.js 20+, whatsapp-web.js, OpenAI, Puppeteer
 **Features**:
 - Reconhecimento de voz em português
 - Respostas contextuais com GPT-4
 - Síntese de voz natural
-- 24/7 uptime
+- Suporte a múltiplos LLMs (Claude, Gemini, Kimi)
 
 ---
 
-### 🔹 [Synaptic RH - Agente Conversacional com RAG](https://github.com/simbiosesingularidade-afk/Synaptic-RH-Agente-Conversacional-com-RAG)
-Assistente Virtual Inteligente para WhatsApp voltado para **atendimento a funcionários** com arquitetura RAG (Retrieval-Augmented Generation).
+### 🔹 [Synaptic RH - RAG Assistant](https://github.com/simbiosesingularidade-afk/Synaptic-RH-Agente-Conversacional-com-RAG)
+Assistente Virtual Inteligente para atendimento a funcionários com arquitetura **RAG**.
 
 **Stack**: Node.js, whatsapp-web.js, OpenAI, RAG
 **Features**:
-- Atendimento automatizado a funcionários
-- Integração com LLMs (OpenAI)
+- Atendimento automatizado 24/7
 - RAG para respostas baseadas em conhecimento da empresa
 - Contexto conversacional inteligente
+
+---
+
+### 🔹 [Claude Skills](https://github.com/simbiosesingularidade-afk/claude-skills) ⭐ NOVO
+Framework de desenvolvimento com **Claude Code** — Skills, Plan Mode e Automação.
+
+**Stack**: Claude Code, TypeScript, Python, Bash
+**Features**:
+- Skills para tarefas repetitivas
+- Plan mode para tarefas complexas
+- Auditoria automática de código
+- Sistema de lições aprendidas
 
 ---
 
@@ -70,21 +82,20 @@ Assistente Virtual Inteligente para WhatsApp voltado para **atendimento a funcio
 ### Core
 - **Python**: 3.12+ (asyncio, type hints)
 - **Node.js**: 20+ (ES modules)
-- **TypeScript**: Strict mode
+- **React**: 19 + TypeScript
 - **Banco de Dados**: PostgreSQL, Redis
 
 ### Trading & Finance
 - **ccxt.pro**: Exchange-agnostic async trading
 - **pandas/numpy**: Análise quantitativa
 - **aiohttp**: Async HTTP client
-- **ATR**: Average True Range para gestão de risco
+- **Kelly Criterion**: Gestão de risco matemática
 
 ### AI & LLMs
 - **OpenAI**: GPT-4, Whisper, TTS
 - **Anthropic**: Claude Sonnet/Opus
 - **Google**: Gemini Pro
 - **Moonshot**: Kimi (Chinese LLM)
-- **RAG**: Retrieval-Augmented Generation
 
 ### Infraestrutura
 - **Docker**: Containerização
@@ -136,10 +147,16 @@ Assistente Virtual Inteligente para WhatsApp voltado para **atendimento a funcio
 
 ## 🔗 Links Rápidos
 
-- [Aether v10 Definitive](https://github.com/simbiosesingularidade-afk/Aether-TradingBot-v10Definitive) — Bot de trading 22+ ativos
+### ⭐ Projetos Vigentes
+- [Aether v15 Synapse Quantum](https://github.com/simbiosesingularidade-afk/aether-v15-synapse-quantum) — Bot trading 60+ ativos
+- [Aether Dashboard](https://github.com/simbiosesingularidade-afk/aether-dashboard) — Dashboard React
+- [Synaptic WhatsApp Bot](https://github.com/simbiosesingularidade-afk/synaptic-whatsapp-bot) — Bot IA voz + GPT-4
+- [Claude Skills](https://github.com/simbiosesingularidade-afk/claude-skills) — Framework Claude Code
+
+### 📚 Projetos Anteriores
 - [AetherJ Trading Bot](https://github.com/simbiosesingularidade-afk/aetherj-trading-bot) — Bot 3 estratégias
-- [Synaptic WhatsApp Bot](https://github.com/simbiosesingularidade-afk/synaptic-whatsapp-bot) — Assistente IA voz + GPT-4
-- [Synaptic RH com RAG](https://github.com/simbiosesingularidade-afk/Synaptic-RH-Agente-Conversacional-com-RAG) — Bot RH inteligente
+- [Aether v10](https://github.com/simbiosesingularidade-afk/Aether-TradingBot-v10Definitive) — Versão anterior
+- [Synaptic RH com RAG](https://github.com/simbiosesingularidade-afk/Synaptic-RH-Agente-Conversacional-com-RAG) — Bot RH
 
 ---
 
